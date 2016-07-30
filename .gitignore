@@ -1,0 +1,9 @@
+*.tlog
+*.log
+*.obj
+*.pdb
+*.ilk
+*.vc.db
+*.suo
+*.vcxproj.user
+*.vc.opendb
