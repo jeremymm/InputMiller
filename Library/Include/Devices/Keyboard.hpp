@@ -25,7 +25,7 @@
 
 //***************************************************************************//
 // This enum simply masks that we are using DirectInput keys
-enum HabuInputKey
+enum MillerInputKey
 {
   HIK_ESCAPE =       DIK_ESCAPE,
   HIK_1 =            DIK_1,
@@ -226,7 +226,7 @@ namespace MST
     // Parameter 1: The key the method will check.
     // Return Value: The method will return true if the key specified in parameter
     //               1 is pressed. Otherwise it will return false.
-    bool KeyDown(enum HabuInputKey eKey) const
+    bool KeyDown(enum MillerInputKey eKey) const
     {
       return ((this->mcaKeyBoardState[eKey] & 0x80) != 0);
     }
